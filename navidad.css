@@ -1,0 +1,102 @@
+/* Fondo general */
+body {
+font-family: "Segoe UI", Arial, sans-serif;
+background: linear-gradient(180deg, #1A3C32, #0F241E);
+margin: 0;
+padding: 0;
+color: #222;
+}
+
+/* Encabezado */
+header {
+background: rgba(26, 60, 50, 0.9);
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: #fff;
+padding: 15px 5px;
+text-align: center;
+border-bottom: 4px solid #D4A017; /* dorado */
+}
+
+header h1 {
+font-size: 42px;
+margin: 0 0 10px;
+color: #D4A017;
+text-shadow: 2px 2px 4px #000;
+}
+
+header h2 {
+font-size: 28px;
+margin: 0 0 10px;
+color: #B30000;
+text-shadow: 2px 2px 4px #000;
+}
+
+/* Secciones del menú */
+.menu-section {
+width: 85%;
+max-width: 920px;
+background: rgba(255, 255, 255, 0.95);
+margin: 40px auto;
+padding: 25px;
+border-radius: 14px;
+border-left: 6px solid #B30000; /* rojo navideño */
+box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+.menu-section h2 {
+font-size: 30px;
+color: #B30000; /*  */
+margin-bottom: 20px;
+border-left: 6px solid rgba(26, 60, 50, 0.95);
+padding-left: 10px;
+}
+
+/* Cada ítem */
+.item {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+padding-bottom: 15px;
+border-bottom: 1px solid #ddd;
+}
+
+.item img {
+width: 125px;
+height: 95px;
+object-fit: cover;
+border-radius: 10px;
+margin-right: 20px;
+border: 3px solid #B30000; /* marco rojo */
+}
+
+/* Info del plato */
+.info h3 {
+margin: 0;
+font-size: 21px;
+color: rgba(26, 60, 50, 0.95); /* rojo elegante */
+font-weight: 700;
+}
+
+.info p {
+margin: 5px 0 0;
+color: #333;
+}
+
+/* Precio */
+.precio {
+margin-left: auto;
+font-weight: bold;
+font-size: 22px;
+color: #B30000; /* rojo */
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 25px;
+background: rgba(26, 60, 50, 0.95);
+color: #fff;
+border-top: 4px solid #D4A017;
+margin-top: 40px;
+font-size: 18px;
+}
